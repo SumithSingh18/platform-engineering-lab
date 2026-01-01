@@ -1,0 +1,7 @@
+# platform/namespaces/apps.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: apps
+  labels:
+    owner: product-teams
