@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/you/org-platform
+    repoURL: https://github.com/SumithSingh18/platform-engineering-lab
     targetRevision: main
     path: platform
   destination:
