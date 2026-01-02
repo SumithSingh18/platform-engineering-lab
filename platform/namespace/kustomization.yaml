@@ -2,5 +2,5 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- platform.yaml
-- apps.yaml
+- platform-engineering-lab\platform\namespace\platform.yaml
+- platform-engineering-lab\platform\namespace\apps.yaml
