@@ -7,6 +7,8 @@ spec:
   project: default
   source:
     repoURL: https://github.com/SumithSingh18/platform-engineering-lab
+    #repoURL: https://github.com/SumithSingh18/THIS-DOES-NOT-EXIST
+
     targetRevision: main
     path: platform
   destination:
