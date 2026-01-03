@@ -6,11 +6,9 @@ GitOps Driven Kubernetes Platform
 
 The focus of this project is platform engineering fundamentals:
 
-<ul>
-  <li>Clear ownership of boundaries</li>
-  <li>Git-Based control of cluster state</li>
-  <li>Minimal friction for application teams</li>
-</ul>
+- Clear ownership of boundaries
+- Git-Based control of cluster state
+- Minimal friction for application teams
 
 
 Note:
@@ -43,6 +41,5 @@ ArgoCD (GitOps Controller)
       ↓
 Kubernetes Cluster
 
-
-
 ```
+
