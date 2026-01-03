@@ -19,4 +19,30 @@ Note:
 *This is not a production platform or a SaaS product.*
 *It is a hands-on lab designed to model real-world platform practices in a controlled environment.*
 
-Installed ArgoCD app
+
+### Core Idea
+
+
+The Application Team should be able to deploy service by commiting to Git -- without needing kubectl access, cluster credentials and deep Kubernetes knowledge
+
+The Platform Team owns
+- Namespace
+- Deployment Standards
+- Reconcilliation and Rollback
+
+Developers Own
+- Application Manifests
+- Application Code
+
+### High-Level Architecture
+
+```bash
+Git Repository
+      ↓
+ArgoCD (GitOps Controller)
+      ↓
+Kubernetes Cluster
+
+
+
+```
