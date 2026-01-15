@@ -2,6 +2,7 @@
 
 This platform is cloud-agnostic. I intentionally built it locally to focus on platform design, cost awareness, and reproducibility. The same patterns apply directly to EKS/GKE.
 
+
 ## Current Status
 
 ✅ **Phase 1 Complete:** Platform Bootstrap
@@ -39,3 +40,6 @@ Developer Git Commit → ArgoCD → Kubernetes Cluster
 ```
 
 **Key Principle:** Developers deploy through Git, never kubectl directly.
+
+
+#dummy
