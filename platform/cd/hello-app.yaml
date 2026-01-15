@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: hello-app
-  namespace: platform
+  namespace: argocd
   labels:
     app-type: user-application
 spec:
