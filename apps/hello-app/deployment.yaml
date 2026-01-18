@@ -4,7 +4,7 @@ metadata:
   name: hello-app
   namespace: apps
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: hello-app
