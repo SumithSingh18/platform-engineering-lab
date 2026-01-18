@@ -2,15 +2,15 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: apps-root
-  namespace: argocd
+  namespace: platform
 spec:
   project: default
   source:
     repoURL: https://github.com/SumithSingh18/platform-engineering-lab
-    #repoURL: https://github.com/SumithSingh18/THIS-DOES-NOT-EXIST
-
     targetRevision: main
     path: apps
+    directory:
+      recurse: true
   destination:
     server: https://kubernetes.default.svc
     namespace: apps
