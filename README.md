@@ -42,4 +42,3 @@ Developer Git Commit → ArgoCD → Kubernetes Cluster
 **Key Principle:** Developers deploy through Git, never kubectl directly.
 
 
-#dummy
