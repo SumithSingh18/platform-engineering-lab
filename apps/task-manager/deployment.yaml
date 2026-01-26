@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: task-manager
-          image: sumithsingh001/taskmanagerusing-jenkins:latest
+          image: sumithsingh001/task-manager:35b2e95
           ports:
             - containerPort: 3000
