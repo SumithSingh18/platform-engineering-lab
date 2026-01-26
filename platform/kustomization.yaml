@@ -5,3 +5,4 @@ resources:
   - namespace
   - cd/hello-app.yaml
   - cd/apps_root.yaml
+  - cd/task-manager.yaml
