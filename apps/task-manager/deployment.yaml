@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: task-manager
-          image: sumithsingh001/task-manager:35b2e95
+          image: sumithsingh001/task-manager:3d0883f
           ports:
             - containerPort: 3000
           resources:
