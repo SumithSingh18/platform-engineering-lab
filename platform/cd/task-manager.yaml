@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/SumithSingh18/TaskManagerK8s
+    repoURL: https://github.com/SumithSingh18/platform-engineering-lab
     targetRevision: main
     path: apps/task-manager
   destination:
